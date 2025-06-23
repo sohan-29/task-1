@@ -1,3 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .header {
-    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navs {
+    color: #374151;
+    text-decoration: none;
+    margin: 1.3rem;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
 }
