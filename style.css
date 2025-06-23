@@ -6,8 +6,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.7rem;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 6rem;
+    padding-right: 6rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navs {
@@ -19,4 +19,75 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
     cursor: pointer;
+    color: #0284c7;
+}
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroSection .info {
+    color: #4b5563;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    padding: 0rem 9rem 1rem 9rem;
+}
+.heroSection .button {
+    background-color: #0284c7;
+    border-radius: 9px;
+    padding: 1rem 1.3rem;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg {
+    margin:0 0.3rem;
+}
+.headingContainer {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+}
+.heading {
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 5rem;
+    font-weight:bolder;
+}
+#heading-1 {
+    color:black;
+}
+#heading-2 {
+    color: #0284c7;
+}
+.footer {
+    position:absolute;
+    bottom: 0;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #111827;
+}
+.footer .container {
+    box-sizing: border-box;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-bottom: 2rem;
+}
+#footerLogo {
+    color: white;
+}
+#copyRights {
+    color: #9ca3af;
 }
