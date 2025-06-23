@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -10,23 +11,28 @@ body {
     padding-right: 6rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .navs {
     color: #374151;
     text-decoration: none;
     margin: 1.3rem;
 }
+
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
     cursor: pointer;
     color: #0284c7;
 }
+
 .heroSection {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .heroSection .info {
     color: #4b5563;
     font-size: 2rem;
@@ -34,6 +40,7 @@ body {
     font-weight: 200;
     padding: 0rem 9rem 1rem 9rem;
 }
+
 .heroSection .button {
     background-color: #0284c7;
     border-radius: 9px;
@@ -45,29 +52,34 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 svg {
-    margin:0 0.3rem;
+    margin: 0 0.3rem;
 }
+
 .headingContainer {
     display: block;
     text-align: center;
     margin-top: 5rem;
 }
+
 .heading {
     padding-left: auto;
     padding-right: auto;
     font-size: 5rem;
-    font-weight:bolder;
+    font-weight: bolder;
 }
+
 #heading-1 {
-    color:black;
+    color: black;
 }
+
 #heading-2 {
     color: #0284c7;
 }
-.footer {
-    position:absolute;
-    bottom: 0;
+
+footer {
+    margin-top: 2rem;
     width: 97%;
     display: flex;
     flex-direction: column;
@@ -75,6 +87,7 @@ svg {
     padding: 2rem 1rem;
     background-color: #111827;
 }
+
 .footer .container {
     box-sizing: border-box;
     width: 98%;
@@ -85,9 +98,11 @@ svg {
     padding-right: 6rem;
     margin-bottom: 2rem;
 }
+
 #footerLogo {
     color: white;
 }
+
 #copyRights {
     color: #9ca3af;
 }
